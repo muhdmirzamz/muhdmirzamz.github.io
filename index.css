@@ -1,0 +1,67 @@
+body {
+	width: 900px;
+	height: 500px;
+	margin: auto;
+
+	/*background-color: red;*/
+}
+
+/* applies to all parts */
+.part_divs {
+	margin: auto;
+
+	width: 1280px;
+	height: 650px;
+	
+	position: relative;
+	right: 190px;
+}
+
+/* applies to all part subtitles */
+.part_subtitles {
+	margin: auto;
+	text-align: center;
+
+	font-family: 'Helvetica Neue';
+	font-size: 80px;
+	color: white;
+}
+
+#who_i_am {
+	/*
+		set it a certain width
+		use position relative to fit the whole div inside the screen
+		get rid of excess width
+	*/
+	background-color: #70DBFF;
+}
+
+#who_i_am #hello {
+	position: relative;
+	top: 140px;
+	right: 320px;
+}
+
+#who_i_am #self_intro p{
+	margin: auto;
+
+	display: inline-block;
+
+	position: relative;
+	top: 220px;
+	left: 220px;
+
+	font-family: 'Helvetica Neue';
+	font-size: 40px;
+	color: white;
+}
+
+#projects {
+	background-color: #3399FF;
+}
+
+#projects #projects_title {
+	position: relative;
+	top: 140px;
+	right: 270px;
+}
