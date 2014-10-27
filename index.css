@@ -63,7 +63,7 @@ a {
 		get rid of excess width
 	*/
 	background-color: #70DBFF;
-	height: 660px;
+	height: 670px;
 
 	margin: auto;
 }
@@ -74,7 +74,7 @@ a {
 
 	font-family: Lato-Hairline;
 	font-size: 80px;
-	color: white;
+	color: black;
 
 	text-align: center;
 
@@ -86,7 +86,6 @@ a {
 	top: 240px;
 
 	font-family: Lato-Hairline;
-	color: white;
 
 	text-align: center;
 
@@ -101,7 +100,7 @@ a {
 	display: inline;
 
 	font-size: 45px;
-	color: white;
+	color: black;
 
 	padding-left: 30px;
 	padding-right: 30px;
@@ -114,7 +113,7 @@ a {
 #self_intro {
 	background-color: #33CCFF;
 
-	height: 660px;
+	height: 675px;
 }
 
 #self_intro_subtitle {
@@ -150,7 +149,7 @@ a {
 }
 #contact_me ul {
 	position: relative;
-	left: 350px;
+	margin-left: 365px;
 }
 
 #contact_me a li {
