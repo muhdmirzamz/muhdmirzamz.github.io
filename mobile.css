@@ -1,10 +1,8 @@
 body {
-	width: 900px;
+	width: 600px;
 	height: 500px;
 	margin: auto;
 	font-family: Quicksand-Regular;
-
-	/*background-color: red;*/
 }
 
 a {
@@ -159,7 +157,7 @@ a {
 	padding-right: 50px;
 }
 
-#mobile {
+#desktop {
 	position: relative;
 	bottom: 10px;
 	margin-left: 100px;
