@@ -594,7 +594,7 @@ a {
 		height: 150px;
 
 		position: relative;
-		top: 30%;
+		margin-top: 30%;
 
 		/*background-color: green;*/
 	}
