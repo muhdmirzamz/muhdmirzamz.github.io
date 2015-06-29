@@ -438,9 +438,9 @@ a {
 	}
 
 	#content {
-		/*background-color: lightblue;*/
+		background-color: lightblue;
 
-		background-image: url('../img/landscape.jpg');
+		/*background-image: url('../img/landscape.jpg');*/
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 
@@ -600,7 +600,7 @@ a {
 
 	#contact ul {
 		position: relative;
-		top: 10%;
+		top: 20%;
 
 		margin-left: 5%;
 	}
