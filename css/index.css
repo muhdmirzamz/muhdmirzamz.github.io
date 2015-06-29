@@ -430,6 +430,15 @@ a {
 		display: inline-block;
 	}
 
+	#tagline {
+		-webkit-animation-name: "taglineFade";
+		-webkit-animation-duration: 1s;
+		-webkit-animation-timing-duration: ease-in-out;
+
+		position: relative;
+		margin-top: 10%;
+	}
+
 	#landing-page p:last-child {
 		font-size: 40px;
 
@@ -592,7 +601,7 @@ a {
 		height: 150px;
 
 		position: relative;
-		margin-top: 10%;
+		top: 10%;
 
 		/*background-color: green;*/
 	}
