@@ -594,14 +594,13 @@ a {
 		height: 150px;
 
 		position: relative;
-		margin-top: 30%;
 
 		/*background-color: green;*/
 	}
 
 	#contact ul {
 		position: relative;
-		top: 20%;
+		top: 30%;
 
 		margin-left: 5%;
 	}
