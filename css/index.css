@@ -412,7 +412,49 @@ a {
 }
 
 /* media queries */
-@media (max-width: 720px) {
+@media (max-width: 300px) {
+	/* page design */
+	#landing-page {
+		background-image: url('../img/bush.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+
+		min-height: 100%;
+		height: 830px;
+	}
+
+	#content {
+		/*background-color: lightblue;*/
+
+		background-image: url('../img/landscape.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+
+		height: 1100px;
+	}
+
+	#contact {
+		width: 100%;
+		height: 150px;
+
+		/*background-color: green;*/
+	}
+
+	#contact ul {
+		position: relative;
+		top: 10%;
+
+		margin-left: 5%;
+	}
+
+	#contact ul a li {
+		display: inline;
+
+		margin-right: 5%;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 720px) {
 	#text-background {
 		width: 90%;
 		height: 30%;
