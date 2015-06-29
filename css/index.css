@@ -412,7 +412,7 @@ a {
 }
 
 /* media queries */
-@media (max-width: 300px) {
+@media (max-width: 380px) {
 	/* page design */
 	#landing-page {
 		background-image: url('../img/bush.jpg');
@@ -454,7 +454,7 @@ a {
 	}
 }
 
-@media (min-width: 300px) and (max-width: 720px) {
+@media (min-width: 380px) and (max-width: 720px) {
 	#text-background {
 		width: 90%;
 		height: 30%;
