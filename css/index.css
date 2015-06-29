@@ -436,14 +436,7 @@ a {
 		-webkit-animation-timing-duration: ease-in-out;
 
 		position: relative;
-		margin-top: 10%;
-	}
-
-	#landing-page p:last-child {
-		font-size: 40px;
-
-		position: relative;
-		margin-top: 10%;
+		margin-top: 15%;
 	}
 
 	#content {
@@ -601,7 +594,7 @@ a {
 		height: 150px;
 
 		position: relative;
-		top: 10%;
+		top: 15%;
 
 		/*background-color: green;*/
 	}
