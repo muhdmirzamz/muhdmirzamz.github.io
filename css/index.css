@@ -423,6 +423,20 @@ a {
 		height: 830px;
 	}
 
+	#text-background {
+		width: 70%;
+		height: 50%;
+
+		background-color: rgba(0, 200, 255, 1);
+
+		position: relative;
+		margin-top: 20%;
+		margin-left: 15%;
+		margin-right: 15%;
+
+		display: inline-block;
+	}
+
 	#content {
 		/*background-color: lightblue;*/
 
