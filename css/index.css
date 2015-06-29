@@ -75,7 +75,7 @@ a {
 #content {
 	/*background-color: lightblue;*/
 
-	background-image: url('../img/landscape.jpg');
+	/*background-image: url('../img/landscape.jpg');*/
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-attachment: fixed;
