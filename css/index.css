@@ -73,14 +73,6 @@ a {
 }
 
 #content {
-	/*background-color: lightblue;*/
-/*
-	background-image: url('../img/landscape.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment: fixed;
-	*/
-
 	height: 1100px;
 }
 
@@ -438,6 +430,13 @@ a {
 		display: inline-block;
 	}
 
+	#landing-page p:last-child {
+		font-size: 40px;
+
+		position: relative;
+		margin-top: 10%;
+	}
+
 	#content {
 		background-color: lightblue;
 
@@ -591,6 +590,9 @@ a {
 	#contact {
 		width: 100%;
 		height: 150px;
+
+		position: relative;
+		margin-top: 10%;
 
 		/*background-color: green;*/
 	}
