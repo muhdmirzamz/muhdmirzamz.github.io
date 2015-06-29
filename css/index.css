@@ -678,6 +678,17 @@ a {
 		border-color: rgba(200, 200, 200, 1);
 	}
 
+	#content {
+		/*background-color: lightblue;*/
+
+		background-image: url('../img/landscape.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+
+		height: 1100px;
+	}
+
 	.project-content-wrapper {
 		position: relative;
 		margin-top: 2%;
@@ -870,6 +881,17 @@ a {
 		border-radius: 150px;
 		border-width: 2px;
 		border-color: rgba(200, 200, 200, 1);
+	}
+
+	#content {
+		/*background-color: lightblue;*/
+
+		background-image: url('../img/landscape.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+
+		height: 1100px;
 	}
 
 	.project-content-wrapper {
