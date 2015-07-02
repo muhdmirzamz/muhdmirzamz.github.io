@@ -79,13 +79,18 @@
 							var d = new Date();
 
 							var date = d.getDate();
-							var month = d.getMonth() + 1;
+							var month = d.getMonth() + 1; // january starts from 0 as default, add 1 for easy calculations
 
-							if (date >= 27 && month >= 2) {
-								/* I am this age */
+							if (month == 2) { /* exactly feb */
+								if (date >= 27) {
+									var age = d.getFullYear() - 1997;
+								} else {
+									/* should be this age, but it is not my birthday yet */
+									var age = d.getFullYear() - 1997 - 1;
+								}
+							} else if (month > 2) { /* it's past feb, date does not matter, birthday over */
 								var age = d.getFullYear() - 1997;
-							} else {
-								/* should be this age, but it is not my birthday yet */
+							} else { /* before feb */
 								var age = d.getFullYear() - 1997 - 1;
 							}
 
