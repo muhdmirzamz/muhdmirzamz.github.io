@@ -3,153 +3,85 @@
 	<head>
 		<title>Muhd Mirza</title>
 		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<script type="text/javascript" src="js/index.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- scripts -->
+		<script type="text/javascript" src="materialize/js/jquery-2.1.4.min.js"></script>
+		<!-- materialize needs jQuery declared first -->
+		<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 	</head>
-	<body onscroll="scrollAndSlot();">
-		<div id="landing-page">
-			<div id="text-background">
-				<p class="landing-page-text" id="name">Muhd Mirza</p>
-				<p class="landing-page-text" id="tagline">IT Student . Indie game developer . Web developer</p>
-			</div>
+	<body>
+		<div class="container">
+			<div class="row">
+				<!-- introduction -->
+		    	<div class="col s12 m12">
+		         	<div class="card blue-grey darken-1">
+		            	<div class="card-content white-text">
+		              		<span class="card-title">Muhd Mirza</span>
+		              		<p>
+								Hi, I am a student studying Information Technology in Singapore.
+								I like to code and experiment, primarily focusing on iOS and games development. Apart from that, I consider taking photos and dancing as a hobby.
+							</p>
+							<br/>
+							<p>
+								Have a look at some of my projects below..<br/>
+								Or click the icon below this to go to my Github account. Either way works.
+							</p>
+		            	</div>
+			            <div class="card-action">
+			            	<a href="https://twitter.com/muhdmirzamz" class="image-hover"><img src="svg/twitter.svg"></a>
+			             	<a href="https://github.com/muhdmirzamz" class="image-hover"><img src="svg/github.svg"></a>
+							<a href="mailto:muhdmirzamz@gmail.com" class="image-hover"><img src="svg/mail.svg"></a>
+			            </div>
+		          	</div>
+		        </div>
+				<!-- first project -->
+				<div class="col s12 m6">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+					     	<img class="activator" src="img/mazel.png">
+					    </div>
+					    <div class="card-content">
+					     	<span class="card-title activator grey-text text-darken-4">Mazel<i class="material-icons right">more_vert</i></span>
+							<p>Click the 3 dots for more information</p>
+					     	<p><a href="https://github.com/muhdmirzamz/Mazel">View this on github</a></p>
+					    </div>
+					    <div class="card-reveal">
+					     	<span class="card-title grey-text text-darken-4">Story behind Mazel<i class="material-icons right">close</i></span>
+					     	<p>
+								Mazel is my first game idea ever. But it is not the first I released.
+								The first was for a game jam.
+								I wanted to try out a simple puzzle game, something I can test out collision detection with and I got carried away with level creation at the end.
+								Nonetheless, I am still proud of it for being my first full-featured game and something I worked on myself.
+							</p>
+					    </div>
+					 </div>
+				</div>
+				<!-- second project -->
+				<div class="col s12 m6">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+					     	<img class="activator" src="img/mummydiner.png">
+					    </div>
+					    <div class="card-content">
+					     	<span class="card-title activator grey-text text-darken-4">Story behind Mummy Diner<i class="material-icons right">more_vert</i></span>
+							<p>Click the 3 dots for more information</p>
+					     	<p><a href="https://github.com/muhdmirzamz/MummyDiner">View this on github</a></p>
+					    </div>
+					    <div class="card-reveal">
+					     	<span class="card-title grey-text text-darken-4">Mummy Diner<i class="material-icons right">close</i></span>
+					     	<p>
+								This game is my first attempt at a timer-based game. I figured a Diner Dash clone was good enough
+								to serve as an example and a first try. I also tried to finish this game for my mother's birthday as you can
+								tell from the title. Still one of the most complicated game I've done but I learnt quite a bit.
+							</p>
+					    </div>
+					 </div>
+				</div>
+		    </div>
 		</div>
-		<div id="content">
-			<div id="project-switcher">
-				<div onclick="toggleGameDevVisibility();" class="tab tab-selected" id="game-dev-tab">
-					<p>Game development</p>
-				</div>
-				<div onclick="toggleWebDevVisibility();" class="tab" id="web-dev-tab">
-					<p>Web development</p>
-				</div>
-				<div onclick="toggleAboutMeVisibility();" class="tab" id="about-me-tab">
-					<p>About Me</p>
-				</div>
-			</div>
-			<!-- the one managing visibility and display -->
-			<div id="game-dev-project" style="visibility: visible; display: block;">
-				<!-- the one managing individual project layout -->
-				<div class="project-content-wrapper">
-					<div class="project-img">
-						<img src="img/mazel_main_menu.png">
-					</div>
-					<div class="project-desc">
-						<p>
-							This is my first game.
-							It's a game which combines the concept of a puzzle
-							and a maze.
-						</p>
-					</div>
-				</div>
-				<div class="project-content-wrapper">
-					<div class="project-img">
-						<img src="img/creque.png">
-					</div>
-					<div class="project-desc">
-						<p>
-							A 2D shooter game I wrote
-						</p>
-					</div>
-				</div>
-				<div class="project-content-wrapper">
-					<div class="project-img">
-						<img src="img/mummydiner.png">
-					</div>
-					<div class="project-desc">
-						<p>
-							A game I made for my mother's birthday.
-							A diner dash clone of sorts.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div id="web-dev-project" style="visibility: hidden; display: none;">
-				Coming soon! Well this website, for starters..
-			</div>
-			<div id="about-me" style="visibility: hidden; display: none;">
-				<div id="background-info-wrapper">
-					<div id="background-info" class="background-info-div-size">
-						<p class="text-settings">
-							Hi, my name is Muhd Mirza. I'm a <span id="age"></span>
-							year old developer living in Singapore. Currently studying
-							Information Technology. I make games and websites
-							and I am continuing to learn more each day.
-						</p>
-						<script type="text/javascript">
-							var d = new Date();
-
-							var date = d.getDate();
-							var month = d.getMonth() + 1; // january starts from 0 as default, add 1 for easy calculations
-
-							if (month == 2) { /* exactly feb */
-								if (date >= 27) {
-									var age = d.getFullYear() - 1997;
-								} else {
-									/* should be this age, but it is not my birthday yet */
-									var age = d.getFullYear() - 1997 - 1;
-								}
-							} else if (month > 2) { /* it's past feb, date does not matter, birthday over */
-								var age = d.getFullYear() - 1997;
-							} else { /* before feb */
-								var age = d.getFullYear() - 1997 - 1;
-							}
-
-							console.log("Month: " + (d.getMonth() + 1));
-							console.log("Day: " + d.getDate());
-
-							document.getElementById('age').innerHTML = age;
-						</script>
-					</div>
-					<div id="hobby" class="background-info-div-size">
-						<p class="text-settings">
-							I like to play football and I am exploring the world of photography
-							as you have seen from the pictures in my website. I play games from time to time.
-						</p>
-					</div>
-				</div>
-				<div id="skill">
-					<p>I can do: </p>
-					<ul>
-						<li>Web development technologies such as HTML, CSS and Javascript</li>
-						<li>C++ games development</li>
-						<li>Java programming</li>
-					</ul>
-				</div>
-				<div id="contact">
-					<ul>
-						<a href="https://twitter.com/muhdmirzamz">
-							<li>
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 32 32">
-								<path fill="#444444" d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM23.952 11.921c0.008 0.176 0.012 0.353 0.012 0.531 0 5.422-4.127 11.675-11.675 11.675-2.317 0-4.474-0.679-6.29-1.844 0.321 0.038 0.648 0.058 0.979 0.058 1.922 0 3.692-0.656 5.096-1.757-1.796-0.033-3.311-1.219-3.833-2.849 0.251 0.048 0.508 0.074 0.772 0.074 0.374 0 0.737-0.050 1.081-0.144-1.877-0.377-3.291-2.035-3.291-4.023 0-0.017 0-0.034 0-0.052 0.553 0.307 1.186 0.492 1.858 0.513-1.101-0.736-1.825-1.992-1.825-3.415 0-0.752 0.202-1.457 0.556-2.063 2.024 2.482 5.047 4.116 8.457 4.287-0.070-0.3-0.106-0.614-0.106-0.935 0-2.266 1.837-4.103 4.103-4.103 1.18 0 2.247 0.498 2.995 1.296 0.935-0.184 1.813-0.525 2.606-0.996-0.306 0.958-0.957 1.762-1.804 2.27 0.83-0.099 1.621-0.32 2.357-0.646-0.55 0.823-1.245 1.545-2.047 2.124z"></path>
-								</svg>
-							</li>
-						</a>
-						<a href="https://github.com/muhdmirzamz">
-							<li>
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 32 32">
-								<path fill="#444444" d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"></path>
-								</svg>
-							</li>
-						</a>
-						<a href="mailto:muhdmirzamz@gmail.com">
-							<li>
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 32 32">
-								<path fill="#444444" d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM8 8h16c0.286 0 0.563 0.061 0.817 0.177l-8.817 10.286-8.817-10.287c0.254-0.116 0.531-0.177 0.817-0.177zM6 22v-12c0-0.042 0.002-0.084 0.004-0.125l5.864 6.842-5.8 5.8c-0.045-0.167-0.069-0.34-0.069-0.517zM24 24h-16c-0.177 0-0.35-0.024-0.517-0.069l5.691-5.691 2.826 3.297 2.826-3.297 5.691 5.691c-0.167 0.045-0.34 0.069-0.517 0.069zM26 22c0 0.177-0.024 0.35-0.069 0.517l-5.8-5.8 5.865-6.842c0.003 0.041 0.004 0.083 0.004 0.125v12z"></path>
-								</svg>
-							</li>
-						</a>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div id="footer">
-			<p>Copyright (c) Muhd Mirza <span id="copyright"></span></p>
-		</div>
-		<script type="text/javascript">
-			var d = new Date();
-			var year = d.getFullYear();
-
-			document.getElementById('copyright').innerHTML = year;
-		</script>
 	</body>
 </html>
