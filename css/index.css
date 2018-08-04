@@ -6,14 +6,29 @@ body {
 	margin: 0;
 	padding: 0;
 
-	background-color: #99ffff;
+	background-color: white;
 }
 
 p {
 	margin: 0;
 }
 
-a.image-hover img:hover {
-	/* enlarge icons on hover */
-	-webkit-transform: scale(1.5,1.5);
+a {
+	color: #3fccff;
+}
+
+.word-prop {
+	position: relative;
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+#name {
+	font-size: 500%;
+	font-family: 'roboto';
+}
+
+#description {
+	font-size: 300%;
+	font-family: 'arial';
 }
