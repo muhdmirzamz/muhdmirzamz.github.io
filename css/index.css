@@ -19,18 +19,21 @@ a {
 
 .word-prop {
 	position: relative;
-	margin-top: 6%;
 	margin-left: 15%;
 }
 
 #name {
 	font-size: 500%;
 	font-family: 'roboto';
+
+	margin-top: 10%;
 }
 
 #description {
 	font-size: 300%;
 	font-family: 'arial';
+
+	margin-top: 2%;
 }
 
 ul {
@@ -47,4 +50,8 @@ li {
 .svg-icons {
 	width: 10%;
 	height: 10%;
+}
+
+.svg-icons:hover {
+	transform: scale(1.1);
 }
