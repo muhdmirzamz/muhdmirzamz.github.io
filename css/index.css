@@ -55,3 +55,13 @@ li {
 .svg-icons:hover {
 	transform: scale(1.1);
 }
+
+#devto-icon {
+	width: 6%;
+	height: 6%;
+
+	margin-bottom: 2.2%;
+
+	padding-left: 18px;
+	padding-right: 18px;
+}
