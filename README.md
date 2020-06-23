@@ -3,6 +3,7 @@
 ### 23 June 2020
 - Removed Medium link
 - Edited intro to include youtube and instagram
+- Added gitignore
 
 ### 30 January 2020
 - Added Linkedin link
