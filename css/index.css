@@ -19,14 +19,14 @@ a {
 
 .word-prop {
 	position: relative;
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 #name {
 	font-size: 500%;
 	font-family: 'roboto';
 
-	margin-top: 10%;
+	margin-top: 8%;
 }
 
 #description {
@@ -39,8 +39,8 @@ a {
 ul {
 	padding: 0;
 	position: relative;
-	margin-top: 13%;
-	margin-left: 13%;
+	margin-top: 10%;
+	margin-left: 8.5%;
 }
 
 li {
